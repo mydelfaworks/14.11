@@ -1,0 +1,23 @@
+a {
+    background-color: green;
+    color: aliceblue;
+}
+
+.elem {
+    border: 5px solid blue;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.block img {
+    width: 100px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px                                                                                                                                                                                                 ;
+}
+
+.text {
+    color: grey;
+}
