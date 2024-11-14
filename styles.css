@@ -1,3 +1,7 @@
+* {
+    /* box-sizing: border-box; */
+}
+
 a {
     background-color: green;
     color: aliceblue;
@@ -7,6 +11,14 @@ a {
     border: 5px solid blue;
     border-radius: 5px;
     display: inline-block;
+    /* padding: 20px; */
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    padding: 20px 15px 30px 8px;
+    margin: 50px 10px 5px 20px;
+    /* top | right | bottom | left */
 }
 
 .block img {
@@ -15,9 +27,30 @@ a {
 
 .title {
     font-weight: bold;
-    font-size: 20px                                                                                                                                                                                                 ;
+    font-size: 20px;
 }
 
 .text {
     color: grey;
 }
+
+.block-2 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    display: inline-block;
+}
+
+.block-3 {
+    width: 500px;
+    height: 200px;
+    background-color: #b1b1b1;
+    margin-top: 30px;
+    padding: 80px 80px;
+    border: 2px solid #00ff55;
+    display: inline-block;
+}
+
